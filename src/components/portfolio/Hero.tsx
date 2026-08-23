@@ -37,7 +37,7 @@ function NodeField() {
   return (
     <svg
       aria-hidden="true"
-      className="pointer-events-none absolute inset-0 h-full w-full opacity-60"
+      className="pointer-events-none absolute inset-x-0 bottom-0 h-2/3 w-full opacity-25"
       viewBox="0 0 100 100"
       preserveAspectRatio="none"
     >
