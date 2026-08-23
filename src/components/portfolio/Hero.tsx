@@ -9,7 +9,7 @@ function useTypedRole() {
   const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
-    const word = profile.roles[index % profile.roles.length];
+    const word = profile.roles[index % profile.roles.length] ?? "";
     const done = !deleting && text === word;
     const empty = deleting && text === "";
     const timeout = window.setTimeout(

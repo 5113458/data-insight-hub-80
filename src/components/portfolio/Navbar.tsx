@@ -66,7 +66,7 @@ export function Navbar() {
     >
       <nav aria-label="Main" className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-5 md:px-8">
         <a href="#top" className="font-mono text-sm font-semibold tracking-tight">
-          <span className="text-primary">&gt;</span> {profile.name.split(" ")[0].toLowerCase()}
+          <span className="text-primary">&gt;</span> {profile.name.split(" ")[0]?.toLowerCase()}
           <span className="text-muted-foreground">.armurwar</span>
         </a>
 
